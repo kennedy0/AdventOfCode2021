@@ -94,7 +94,7 @@ def main() -> int:
                 solved_boards.append(board)
 
     print(f"Part 1: {solved_boards[0].score}")
-    print(f"Part 1: {solved_boards[-1].score}")
+    print(f"Part 2: {solved_boards[-1].score}")
     return 0
 
 
